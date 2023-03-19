@@ -3,10 +3,6 @@
     "automerge": true,
     "onboarding": false,
     "platform": "github",
-    "pre-commit": {
-        "enabled": true
-    },
-    "rebaseWhen": "auto",
     "regexManagers": [
         {
             "datasourceTemplate": "github-releases",
