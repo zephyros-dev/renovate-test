@@ -16,8 +16,7 @@
             ],
             "matchStrings": [
                 "ENV AQUA_VERSION=(?<currentValue>.*?)\\n"
-            ],
-            "versioningTemplate": "semver"
+            ]
         }
     ],
     "repositories": [
