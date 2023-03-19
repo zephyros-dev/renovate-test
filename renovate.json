@@ -21,8 +21,5 @@
     ],
     "repositories": [
         "zephyros-dev/renovate-test"
-    ],
-    "ignoreDeps": [
-        "aquaproj/aqua"
     ]
 }
