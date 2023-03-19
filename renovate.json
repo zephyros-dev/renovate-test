@@ -1,0 +1,26 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "automerge": true,
+    "onboarding": false,
+    "platform": "github",
+    "pre-commit": {
+        "enabled": true
+    },
+    "rebaseWhen": "auto",
+    "regexManagers": [
+        {
+            "datasourceTemplate": "github-releases",
+            "depNameTemplate": "aquaproj/aqua",
+            "fileMatch": [
+                "^Dockerfile$"
+            ],
+            "matchStrings": [
+                "ENV AQUA_VERSION=(?<currentValue>.*?)\\n"
+            ],
+            "versioningTemplate": "semver"
+        }
+    ],
+    "repositories": [
+        "zephyros-dev/renovate-test"
+    ]
+}
