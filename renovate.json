@@ -12,7 +12,7 @@
             "datasourceTemplate": "github-releases",
             "depNameTemplate": "aquaproj/aqua",
             "fileMatch": [
-                "^Dockerfile$"
+                "Dockerfile"
             ],
             "matchStrings": [
                 "ENV AQUA_VERSION=(?<currentValue>.*?)\\n"
