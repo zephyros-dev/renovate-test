@@ -11,7 +11,7 @@
                 "Dockerfile"
             ],
             "matchStrings": [
-                "ENV AQUA_VERSION=(?<currentValue>.*?)\\n"
+                "ENV AQUA_VERSION=(?<currentValue>.*?)\n"
             ]
         },
         {
@@ -21,7 +21,7 @@
                 "mergerfs.yaml"
             ],
             "matchStrings": [
-                "mergerfs_version: \"(?<currentValue>.*?)\"\\n"
+                "mergerfs_version: \"(?<currentValue>.*?)\"\n"
             ]
         }
     ],
